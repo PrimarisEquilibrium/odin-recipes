@@ -2,12 +2,55 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="./styles/base.css">
+        <link rel="stylesheet" href="./styles/index.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <a href="recipes/lasagna.html">Lasagna</a>
-        <a href="recipes/casserole.html">Casserole</a>
-        <a href="recipes/pancakes.html">Pancakes</a>
+        <div class="logo-container">
+            <img class="logo" src="./images/odin-project-logo.png" alt="odin project logo">
+        </div>
+        <section class="recipe-listing">
+            <h1>Recipes</h1>
+            <div class="container">
+                <a href="recipes/lasagna.html">
+                    <div class="card">
+                        <img class="card-img" src="./images/lasagna.png" alt="lasagna">
+                        <div class="card-info">
+                            <div class="card-info-text">
+                                <div class="food-item">Lasagna</div>
+                                <div class="food-steps">5 Steps</div>
+                            </div>
+                            <img src="./images/lunch-time-icon.svg" alt="lunch time" class="food-type">
+                        </div>
+                    </div>
+                </a>
+                <a href="recipes/casserole.html">
+                    <div class="card">
+                        <img class="card-img" src="./images/casserole.png" alt="casserole">
+                        <div class="card-info">
+                            <div class="card-info-text">
+                                <div class="food-item">Casserole</div>
+                                <div class="food-steps">6 Steps</div>
+                            </div>
+                            <img src="./images/lunch-time-icon.svg" alt="lunch time" class="food-type">
+                        </div>
+                    </div>
+                </a>
+                <a href="recipes/pancakes.html">
+                    <div class="card">
+                        <img class="card-img" src="./images/pancakes.png" alt="pancakes">
+                        <div class="card-info">
+                            <div class="card-info-text">
+                                <div class="food-item">Pancake</div>
+                                <div class="food-steps">6 Steps</div>
+                            </div>
+                            <img src="./images/breakfast-icon.svg" alt="breakfast" class="food-type">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
     </body>
 </html>
